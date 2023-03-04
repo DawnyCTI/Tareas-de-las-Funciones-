@@ -12,8 +12,6 @@ print("El factorial de 7 es: ", factorial(7))
 
 # - Segundo ejercicio de funciones - #
 
-# Crear una función recursiva que determine si un número es primo o no.
-
 def primo(n, i = 2):
     if n == 2:
         return True
@@ -27,8 +25,6 @@ def primo(n, i = 2):
 print("El numero 89 es primo: ", primo(89))
 
 # - Tercer ejercicio de funciones - #
-
-# Escribir una función recursiva que calcule el n-ésimo término de la serie de Fibonacci.
 
 def fibonacci(n):
     if n == 0 or n == 1:
